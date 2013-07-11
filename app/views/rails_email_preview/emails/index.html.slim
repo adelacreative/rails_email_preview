@@ -1,5 +1,5 @@
 h1 Application emails
-ul.list-unstyled
+ul.emails-list.list-unstyled
   - @preview_class_names.each do |m|
     li.col-lg-6.col-sm-6
       h2= m.underscore.sub(/(_mailer)?_preview$/, '').humanize
